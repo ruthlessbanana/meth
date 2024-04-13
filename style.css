@@ -15,8 +15,8 @@ h1{
 }
 
 body{
-    background: url(./img/stars-bg.png);
-    color: rgb(184, 182, 182);
+    background: #6BCEEA;
+    color: rgb(0, 0, 0);
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
@@ -41,6 +41,10 @@ body{
     object-fit: cover;
     margin-right: 4px;
 }
+.star-logo{
+    width: 50px;
+    padding-right: 25px;
+}
 
 .menu-items{
     display: flex;
@@ -54,7 +58,7 @@ li{
 
 a{
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     font-size: 14px;
     display: block;
     transition: .3s ease;
@@ -67,7 +71,7 @@ a:hover{
 
 section{
     height: 100vh;
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .section-one{
@@ -82,10 +86,37 @@ section{
     max-width: 1300px;
 }
 
+.container-one{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right top; /* Center the image */
+}
+
+.container-four{
+    background: url('img/wildwest_bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left; /* Center the image */
+}
+
+.container-two{
+    background: url('img/container-two.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left; /* Center the image */
+}
+
+.container-three{
+    background: url('img/wildwest_bg_3.png');
+    background-size: fill;
+    background-position: right top; /* Center the image */
+}
+
+
 .gold{
     height: 600px;
     width: 600px;
-    object-fit: cover;
+    object-fit: fill;
 }
 .title{
     line-height: 1.2;
@@ -94,7 +125,7 @@ section{
     font-size: 40px;
     text-transform: capitalize;
     margin-bottom: 0.5rem;
-    color: #fff;
+    
 }
 
 .title .star{
@@ -102,26 +133,31 @@ section{
 }
 
 p{
+    font-family: bm;
+    letter-spacing: 1px;
+    text-align: left;
     font-size: 14px;
     font-weight: 600;
-    max-width: 400px;
+    max-width: 500px;
+}
+
+.separator{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .p{
-    padding: 2rem 0;
+    padding: 2rem 10px;
 }
 
 button{
-    border: none;
-    outline: none;
-    background: linear-gradient(to right, 
-    #2B32B2 , #1488CC
-    );
+    border: 3px solid #fff;
+    border-radius: 25px;
+    background: linear-gradient(to right, #2B32B2 , #1488CC);
     color: #fff;
     padding: 1rem 2rem;
     text-transform: uppercase;
     font-weight: 600;
-    border-radius: 5px;
     cursor: pointer;
     transition: .3s ease;
 }
@@ -147,7 +183,7 @@ button:hover{
 
 .title h2{
     font-size: 24px;
-    opacity: .5;
+    color: #E0B5FF;
 }
 
 .line{
@@ -206,19 +242,13 @@ button:hover{
 
 
 .card-1{
-    background: linear-gradient(to right,
-    #545d60 , #283048
-    );
+    background: linear-gradient(to right,hsla(195, 100%, 87%, 0.5) , #d8e2ff);
 }
 .card-2{
-    background: linear-gradient(to right,
-    #4b485a , #1f1c2c
-    );
+    background: linear-gradient(to right,hsla(195, 100%, 87%, 0.5) , #d8e2ff);
 }
 .card-3{
-    background: linear-gradient(to right,
-    #3f4c6b , #535e79
-    );
+    background: linear-gradient(to right,hsla(195, 100%, 87%, 0.5) , #d8e2ff);
 }
 
 .card:hover{
@@ -299,7 +329,6 @@ footer{
 }
 
 .image{
-
     animation: float 4s ease-in-out infinite;
 }
 
