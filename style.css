@@ -122,6 +122,7 @@ section{
     line-height: 1.2;
 }
 .title h1{
+    width: 500px;
     font-size: 40px;
     text-transform: capitalize;
     margin-bottom: 0.5rem;
@@ -151,13 +152,14 @@ p{
 }
 
 button{
-    border: 3px solid #fff;
-    border-radius: 25px;
-    background: linear-gradient(to right, #2B32B2 , #1488CC);
-    color: #fff;
+    border: 3px solid #000000;
+    background: linear-gradient(to right, #E0B5FF , #6BCEEA);
+    color: #000000;
     padding: 1rem 2rem;
+    font-family: bm;
     text-transform: uppercase;
     font-weight: 600;
+    letter-spacing: 5px;
     cursor: pointer;
     transition: .3s ease;
 }
@@ -183,7 +185,8 @@ button:hover{
 
 .title h2{
     font-size: 24px;
-    color: #E0B5FF;
+    font-family: bm;
+    color: #ffffff;
 }
 
 .line{
@@ -208,7 +211,7 @@ button:hover{
 }
 
 .g-type{
-    color: #0152fc;
+    color: #000000;
 }
 
 .line-blue{
@@ -240,15 +243,14 @@ button:hover{
     object-fit: cover;
 }
 
-
 .card-1{
-    background: linear-gradient(to right,hsla(195, 100%, 87%, 0.5) , #d8e2ff);
+    background: linear-gradient(to right,hsla(195, 100%, 87%, 0.25) , #d8e2ff);
 }
 .card-2{
-    background: linear-gradient(to right,hsla(195, 100%, 87%, 0.5) , #d8e2ff);
+    background: linear-gradient(to right,hsla(195, 100%, 87%, 0.25) , #d8e2ff);
 }
 .card-3{
-    background: linear-gradient(to right,hsla(195, 100%, 87%, 0.5) , #d8e2ff);
+    background: linear-gradient(to right,hsla(195, 100%, 87%, 0.25) , #d8e2ff);
 }
 
 .card:hover{
@@ -256,7 +258,6 @@ button:hover{
     #3a7bd5, #00d2ff
     );
 }
-
 
 .color{
     font-size: 24px;
@@ -266,8 +267,8 @@ button:hover{
 
 .card span{
     text-transform: uppercase;
-    font-weight: 200;
-    color: #fff;
+    font-weight: 400;
+    color: #000000;
 }
 
 .card:hover .color{
@@ -279,7 +280,7 @@ button:hover{
 }
 
 .txt span{
-    color: #0152fc;
+    color: #ffffff;
 }
 
 .sides{
@@ -312,7 +313,7 @@ footer{
 .star-s2{
     position: absolute;
     width: 65px;
-    right: -2%;
+    right: 0%;
 }
 
 .star-s4{
@@ -345,3 +346,56 @@ footer{
     }
     
 }
+
+/* For small devices */
+@media screen and (min-width: 350px) {
+    .title h1{
+        width: 250px;
+    }
+    .gold{
+        height: 150px;
+        width: 150px;
+        object-fit: fill;
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (min-width: 576px) {
+    .title h1{
+        width: 500px;
+    }
+    .gold{
+        height: 150px;
+        width: 150px;
+        object-fit: fill;
+    }
+  }
+  
+  @media screen and (min-width: 767px) {
+    .title h1{
+        width: 500px;
+    }
+    .gold{
+        height: 300px;
+        width: 300px;
+        object-fit: fill;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .title h1{
+        width: 500px;
+    }
+  }
+  
+  /* For large devices */
+  @media screen and (min-width: 1024px) {
+    .title h1{
+        width: 500px;
+    }
+    .gold{
+        height: 600px;
+        width: 600px;
+        object-fit: fill;
+    }
+  }
