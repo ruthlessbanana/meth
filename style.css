@@ -70,7 +70,7 @@ a:hover{
 }
 
 section{
-    height: 100vh;
+    height: 75vh;
     padding: 1rem;
 }
 
@@ -171,7 +171,7 @@ button::after{
 }
 
 button:hover{
-    background: linear-gradient(to right, #121772, #075886);
+    background: linear-gradient(to right, #6BCEEA, #E0B5FF);
 }
 
 .glow{
@@ -180,7 +180,7 @@ button:hover{
 
 
 .right-side{
-    justify-self: flex-end;
+    justify-self: flex-start;
 }
 
 .title h2{
@@ -352,10 +352,18 @@ footer{
     .title h1{
         width: 250px;
     }
+    .txt{
+        font-size: 14px;
+    }
     .gold{
-        height: 150px;
-        width: 150px;
+        height: 100px;
+        width: 100px;
         object-fit: fill;
+    }
+    .color{
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: .5rem;
     }
   }
   
