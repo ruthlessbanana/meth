@@ -34,7 +34,7 @@ gsap.utils.toArray('.star').forEach(star=>{
 })
 
 
-gsap.utils.toArray('.title').forEach(title=>{
+/*gsap.utils.toArray('.title').forEach(title=>{
     gsap.fromTo(title,{
         letterSpacing:'10px',
         opacity:0,
@@ -49,9 +49,9 @@ gsap.utils.toArray('.title').forEach(title=>{
         delay:.5,
         scrollTrigger:title
     })
-})
+})*/
 
-gsap.utils.toArray('p').forEach(p=>{
+/*gsap.utils.toArray('p').forEach(p=>{
     gsap.fromTo(p,{
         opacity:0,
         x:150,
@@ -65,7 +65,7 @@ gsap.utils.toArray('p').forEach(p=>{
         scrollTrigger:p
 
     })
-})
+})*/
 
 
 gsap.utils.toArray('button').forEach(button=>{
@@ -88,7 +88,7 @@ gsap.from('.pyramid' ,{
     delay:.5
 })
 
-gsap.fromTo('.hand',{
+/*gsap.fromTo('.hand',{
     scale:.2,
     opacity:0,
     skewY:30
@@ -99,11 +99,9 @@ gsap.fromTo('.hand',{
     duration:1,
     delay:.5,
     scrollTrigger:'.hand'
-})
+})*/
 
-
-
-gsap.utils.toArray('.line').forEach(line=>{
+/*gsap.utils.toArray('.line').forEach(line=>{
     gsap.fromTo(line,{
         opacity:0,
         width:'0%'
@@ -115,7 +113,7 @@ gsap.utils.toArray('.line').forEach(line=>{
         scrollTrigger:line
 
     })
-})
+})*/
 
 
 gsap.utils.toArray('.rotation').forEach(rotate=>{
@@ -130,12 +128,11 @@ gsap.utils.toArray('.rotation').forEach(rotate=>{
         duration:1,
         delay:1,
         scrollTrigger:rotate
-
     })
 })
 
 
-gsap.fromTo('.card' ,{
+/*gsap.fromTo('.card' ,{
     opacity:0,
     scale:.1,
 },{
@@ -147,9 +144,9 @@ gsap.fromTo('.card' ,{
         amount:1
     },
     scrollTrigger:'.card'
-})
+})*/
 
-const menu = document.querySelector('.menu')
+/*const menu = document.querySelector('.menu')
 
 
 gsap.from(menu.children,{
@@ -163,4 +160,4 @@ gsap.from(menu.children,{
     scrollTrigger:{
         trigger:menu.children
     }
-})
+})*/
