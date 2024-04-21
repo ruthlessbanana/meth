@@ -75,7 +75,7 @@ section{
 }
 
 .section-one{
-    height: calc(100vh - 85px);
+    height: calc(100vh - 100px);
 }
 
 .container{
@@ -166,7 +166,7 @@ button{
 
 button::after{
     font: normal normal normal 14px/1 FontAwesome;
-    content: '\e098';
+    /*content: '\e098';*/
     margin-left: 1rem;
 }
 
@@ -191,7 +191,7 @@ button:hover{
 
 .line{
     width: 100%;
-    background-color: rgb(184, 182, 182);
+    background-color: rgb(255, 255, 255);
     height: 2px;
     margin-top: 1rem;
 }
@@ -321,12 +321,14 @@ footer{
     position: absolute;
     left: -2%;
     margin-top: 2.5rem;
+    z-index: -1;
 }
 
 .star-s5{
     position: absolute;
     left: 40%;
     width: 40px;
+    z-index: -1;
 }
 
 .image{
