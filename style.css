@@ -22,6 +22,7 @@ body{
 }
 
 .nav-bar{
+    font-family: bm;
     display: flex;
     justify-content: space-between;
     padding: 2rem 5rem;
@@ -220,6 +221,8 @@ button:hover{
 
 
 .card-container{
+    font-family: bm;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -260,6 +263,7 @@ button:hover{
 }
 
 .color{
+    text-align: center;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: .5rem;
@@ -288,6 +292,7 @@ button:hover{
 }
 
 .menu{
+    font-family: bm;
     display: flex;
     max-width: 400px;
     flex-wrap: wrap;
@@ -358,8 +363,8 @@ footer{
         font-size: 14px;
     }
     .gold{
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
         object-fit: fill;
     }
     .color{
