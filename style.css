@@ -379,65 +379,32 @@ footer{
         width: 150px;
         object-fit: fill;
     }
-    .methonomics{
-        height: 125px;
-        width: 175px;
-        object-fit: fill;
-    }
-    .methods{
-        height: 125px;
-        width: 200px;
-        object-fit: fill;
-    }
     .color{
         font-size: 18px;
         font-weight: 700;
         margin-bottom: .5rem;
-    }
-    .container-four{
-        margin-left: 50px;
     }
   }
   
   /* For medium devices */
   @media screen and (min-width: 576px) {
     .title h1{
-        width: 300px;
+        width: 500px;
     }
     .gold{
         height: 150px;
         width: 150px;
         object-fit: fill;
     }
-    .methonomics{
-        height: 150px;
-        width: 250px;
-        object-fit: fill;
-    }
-    .methods{
-        height: 150px;
-        width: 250px;
-        object-fit: fill;
-    }
   }
   
   @media screen and (min-width: 767px) {
     .title h1{
-        width: 400px;
+        width: 500px;
     }
     .gold{
         height: 300px;
         width: 300px;
-        object-fit: fill;
-    }
-    .methonomics{
-        height: 250px;
-        width: 300px;
-        object-fit: fill;
-    }
-    .methods{
-        height: 200px;
-        width: 350px;
         object-fit: fill;
     }
   }
@@ -456,16 +423,6 @@ footer{
     .gold{
         height: 600px;
         width: 600px;
-        object-fit: fill;
-    }
-    .methonomics{
-        height: 400px;
-        width: 500px;
-        object-fit: fill;
-    }
-    .methods{
-        height: 300px;
-        width: 500px;
         object-fit: fill;
     }
   }
