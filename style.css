@@ -379,6 +379,16 @@ footer{
         width: 150px;
         object-fit: fill;
     }
+    .methods{
+        height: 100px;
+        width: 150px;
+        object-fit: fill;
+    }
+    .methonomics{
+        height: 100px;
+        width: 150px;
+        object-fit: fill;
+    }
     .color{
         font-size: 18px;
         font-weight: 700;
@@ -389,11 +399,21 @@ footer{
   /* For medium devices */
   @media screen and (min-width: 576px) {
     .title h1{
-        width: 500px;
+        width: 300px;
     }
     .gold{
         height: 150px;
         width: 150px;
+        object-fit: fill;
+    }
+    .methods{
+        height: 150px;
+        width: 250px;
+        object-fit: fill;
+    }
+    .methonomics{
+        height: 150px;
+        width: 250px;
         object-fit: fill;
     }
   }
@@ -405,6 +425,16 @@ footer{
     .gold{
         height: 300px;
         width: 300px;
+        object-fit: fill;
+    }
+    .methods{
+        height: 200px;
+        width: 350px;
+        object-fit: fill;
+    }
+    .methonomics{
+        height: 250px;
+        width: 350px;
         object-fit: fill;
     }
   }
@@ -423,6 +453,16 @@ footer{
     .gold{
         height: 600px;
         width: 600px;
+        object-fit: fill;
+    }
+    .methods{
+        height: 350px;
+        width: 550px;
+        object-fit: fill;
+    }
+    .methonomics{
+        height: 400px;
+        width: 550px;
         object-fit: fill;
     }
   }
